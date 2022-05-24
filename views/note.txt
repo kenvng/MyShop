@@ -1,0 +1,3 @@
+hbs - Handlebars. js is a templating engine similar to the ejs module in node. js, but more powerful and simple to use. It ensures minimum templating and is a logicless engine that keeps the view and the code separated. It can be used with express as the hbs module, available through npm.
+
+express MyShoppingCart --hbs
