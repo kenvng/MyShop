@@ -3,11 +3,6 @@
 /**
  * Module dependencies.
  */
-// // TEST CODE //  NOT NEEDED IN EXPRESS-GENERATOR - CAN REMOVE //
-// const express = require('express') // for hardcode express // no need since using generator // testing
-// const app = express() // testing
-// const PORT = 3000 // testing
-// // ENDS TESTING //
 
 const app = require('../app');
 const debug = require('debug')('myshoppingcart:server');
@@ -94,10 +89,3 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 }
-
-
-// // TEST CODE //  NOT NEEDED IN EXPRESS-GENERATOR // CAN BE REMOVED //
-// // to make our server run, we pass in a port number 3000.  now we have a http://localhost: 3000 open
-// // app.listen(3000) // if it crash that could mean the port is being taken
-// app.listen(PORT, () => console.log(`Listening to port ${PORT}`))
-// // ENDS TESTING //
