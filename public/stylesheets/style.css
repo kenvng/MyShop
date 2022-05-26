@@ -6,4 +6,26 @@
 a {
   color: #00B7FF;
 } */
+.row div {
+  /* border: 1px solid black; */
+}
+.thumbnail {
+  /* border: 1px solid black; */
 
+}
+.thumbnail img {
+  max-height: 150px;
+}
+
+.thumbnail .description {
+  color: #7f7f7f;
+}
+
+div.price {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.price {
+  font-weight: bold;
+  font-size: 16px;
+}
