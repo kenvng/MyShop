@@ -3,6 +3,9 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+// const expressHbs = require('express-handlebars')
+const {engine} = require('express-handlebars');
+
 
 const indexRouter = require('./routes/index');
 // const usersRouter = require('./routes/users');
@@ -10,8 +13,11 @@ const indexRouter = require('./routes/index');
 const app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
+// app.set('views', path.join(__dirname, 'views')); // replace with code below for 3rd party expresss-handlebars
+// app.engine('.hbs', expressHbs({defaultLayout: 'layout', extname: '.hbs'})) // expressHbs is not a function error
+app.engine('hbs', engine({defaultLayout: 'layout', extname: 'hbs'}))
+app.set('view engine', 'hbs'); // add . infront of hbs
+// app.set('view engine', '.hbs');
 
 app.use(logger('dev'));
 app.use(express.json());
