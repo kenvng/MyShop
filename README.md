@@ -15,12 +15,6 @@
             MVP - Minimum Viable Product Your App Must Posess All 7 RESTful Routes
         </li>
     </ul>
-    
-
-
-
-
-
 
 Routes # | URL | HTTP Verb | Action | Notes
 ---------|-----|-----------|--------|------
@@ -33,9 +27,35 @@ Routes # | URL | HTTP Verb | Action | Notes
 7 | /products/:id | GET | show | SHOW when a user types localhost:3000/products/:idOfProduct shows the user an Individual fruit in the browser
 
 
+<h4>Index Page</h4>
+    Your app should have an index page where
+    
+    all the products are displayed
+    the images link to the product's show page
+    and there should be a link to add a new product.
 
+<h4>Show Page</h4>
+    Your show page should display a product with
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+    a link back to the products
+    a link to edit the product (goes to the edit page)
+    a delete button that deletes
+    and the number of items remaining in stock
+    Example
+    If the quantity of your item is zero, the show page should say 'OUT OF STOCK' instead of saying how many are remaining. (Hint: conditionals in jsx).
+    On the edit page, make sure you can set the quantity to zero if you want so that you can test if this is working.
+    The BUY button should also not be rendered if the quantity of the item is zero
+
+<h4>New & Edit Page</h4>  
+    These views should render forms and submit to the appropriate routes.
+     
+<h4>Redirects</h4>
+    The create route should redirect to the index
+    The delete route should redirect to the index
+    The updated route will redirect back to the product's show page.
+    For the Hungry for more? the BUY button will go to a route that redirects back to the product's show page
+
+<h4>Technical Requirements</h4>
+    Your app MUST run without syntax errors. If there are errors you can't solve, comment them out and leave a comment above explaining what is wrong
+    Must contain all 7 Restful Routes
+    Must be styled and look like a store
