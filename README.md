@@ -22,8 +22,8 @@
 
 
 
-# | URL | HTTP Verb | Action | Notes
---|----|-----------|--------|------
+Routes # | URL | HTTP Verb | Action | Notes
+---------|-----|-----------|--------|------
 1 | /products/ | GET | index | INDEX when a user types localhost:3000/products in browser this route shows a list or index of all products
 2 | /products/new | GET | new | NEW when a user types localhost:3000/products/new in the browser this route shows the user a form to create a NEW fruit
 3 | # | /products/:id | DELETE | destroy | DELETE initiates a delete request through a form submission with action = http://localhost:3000/products/:idOfProductand allows the application the ability to delete a product
