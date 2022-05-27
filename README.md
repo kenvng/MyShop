@@ -1,13 +1,15 @@
 "# MyShoppingCart"
 
-    <h1>MY SHOPPING CART</h1>
-    <h2>Introduction:</h2>
-    <p>Welcome to My Shopping Cart Git Repository.  I am going to take you on a journey through my creation of My Shopping Cart.  So, let's buckle up and enjoy the ride.</p>
+<h1>MY SHOPPING CART</h1>
+<h2>Introduction:</h2>
+<p>Welcome to My Shopping Cart Git Repository.  
+    I am going to take you on a journey through my creation of My Shopping Cart.  
+    So, let's buckle up and enjoy the ride.</p>
 
-    <h2>PROJECT DETAIL REQUIREMENTS</h2>
-    <h3>Project #2: The Store</h3>
-    <h4>Project Details</h4>
-    <h5>🔴 Mandatory To Pass:</h5>
+<h2>PROJECT DETAIL REQUIREMENTS</h2>
+<h3>Project #2: The Store</h3>
+<h4>Project Details</h4>
+<h5>🔴 Mandatory To Pass:</h5>
     <ul>
         <li>
             MVP - Minimum Viable Product Your App Must Posess All 7 RESTful Routes
