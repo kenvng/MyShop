@@ -9,30 +9,25 @@ a {
 /********************/
 /* HEADER.HBS STYLE */
 /********************/
+/* Aligning the Bootstrap Search */
 form.d-flex {
   padding-top: 9px;
   padding-bottom: 9px;
   margin: 0;
 }
-input.form-control.me-2 button.btn.btn-outline-success {
-  padding-bottom: 9px;
-}
+/* input.form-control.me-2 button.btn.btn-outline-success {
+
+} */
 
 /*******************/
 /* INDEX.HBS STYLE */
 /*******************/
-.row div {
-  /* border: 1px solid black; */
-}
-.thumbnail {
-  border: 1px solid black;
-}
-.thumbnail {
-  /* border: 1px solid black; */
-
+div.row {
+  margin-bottom: 20px;
 }
 .thumbnail img {
-  max-height: 350px;
+  max-height: 250px;
+  min-height: 150px;
 }
 
 .thumbnail .description {
