@@ -6,15 +6,33 @@
 a {
   color: #00B7FF;
 } */
+/********************/
+/* HEADER.HBS STYLE */
+/********************/
+form.d-flex {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin: 0;
+}
+input.form-control.me-2 button.btn.btn-outline-success {
+  padding-bottom: 9px;
+}
+
+/*******************/
+/* INDEX.HBS STYLE */
+/*******************/
 .row div {
   /* border: 1px solid black; */
+}
+.thumbnail {
+  border: 1px solid black;
 }
 .thumbnail {
   /* border: 1px solid black; */
 
 }
 .thumbnail img {
-  max-height: 150px;
+  max-height: 350px;
 }
 
 .thumbnail .description {
