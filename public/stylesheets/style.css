@@ -29,11 +29,9 @@ div.row {
   max-height: 250px;
   min-height: 150px;
 }
-
 .thumbnail .description {
   color: #7f7f7f;
 }
-
 div.price {
   margin-top: auto;
   margin-bottom: auto;
