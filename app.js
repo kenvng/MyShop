@@ -6,11 +6,16 @@ const logger = require('morgan');
 // const expressHbs = require('express-handlebars')
 const {engine} = require('express-handlebars');
 
-
 const indexRouter = require('./routes/index');
 // const usersRouter = require('./routes/users');
 
+// importing mongoose
+const mongoose = require('mongoose')
+
 const app = express();
+
+// connecting to the hostserver - in this case a localhost
+mongoose.connect('localhost:27017/shopping')
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'views')); // replace with code below for 3rd party expresss-handlebars
